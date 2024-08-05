@@ -6,11 +6,11 @@ import Footer from "../components/Footer";
 
 const LandingPageMainV: FunctionComponent = () => {
   return (
-    <div className="w-full relative bg-colors-colors-zinc-950 overflow-hidden flex flex-col items-start justify-start pt-3.5 px-0 pb-[25px] box-border leading-[normal] tracking-[normal] gap-[95px] ">
+    <div className="w-full relative bg-colors-colors-zinc-950 overflow-hidden flex flex-col items-start justify-start pt-3.5 px-0 pb-[25px] box-border leading-[normal] tracking-[normal] gap-[100px] ">
       <img
-        className="w-full h-[520px] absolute !m-[0] right-[0px] bottom-[1200px] left-[0px] max-w-full overflow-hidden shrink-0 object-cover"
+        className="w-full h-[520px] absolute !m-[0] right-[0px] bottom-[1200px] left-[0px] max-w-full  shrink-0 object-cover"
         alt=""
-        src="/backround-1@2x.png"
+        src="/public/backround 1.png"
       />
       <img
         className="w-full h-[520px] absolute !m-[0] right-[0px] bottom-[300px] left-[0px] max-w-full overflow-hidden shrink-0 object-cover"
